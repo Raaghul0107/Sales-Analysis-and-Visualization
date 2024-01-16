@@ -1,5 +1,6 @@
 #  Sales-Analysis-and-Visualization
-Overview
+## Overview
+
 This repository contains Tableau visualizations created for a computer hardware company using approximately 150,000 transaction records. The data was explored in SQL Server to identify key performance indicators (KPIs), and two dashboards were developed in Tableau. The first dashboard focuses on revenue analysis, while the second one centers around profit analysis.
 
 ## Tableau Dashboards
