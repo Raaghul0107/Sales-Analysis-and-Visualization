@@ -57,8 +57,10 @@ SELECT SUM(transactions.sales_amount) FROM transactions INNER JOIN date ON trans
 
 SELECT SUM(transactions.sales_amount) FROM transactions INNER JOIN date ON transactions.order_date=date.date where date.year=2020 and transactions.market_code="Mark001";
 
-## Sales_Analysis.twb for profit and revenue related visualizations. or use Tableau link 
+## Sales Analysis.twb for profit and revenue related visualizations. or use Tableau link 
+
 https://public.tableau.com/views/SalesInsight_17053636600480/ProfitAnalysis?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
+
 Explore the dashboards interactively and gain valuable insights.
 
 ## Requirements
