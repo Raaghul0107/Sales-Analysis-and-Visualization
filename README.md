@@ -1,23 +1,23 @@
-##  Sales-Analysis-and-Visualization
+#  Sales-Analysis-and-Visualization
 Overview
 This repository contains Tableau visualizations created for a computer hardware company using approximately 150,000 transaction records. The data was explored in SQL Server to identify key performance indicators (KPIs), and two dashboards were developed in Tableau. The first dashboard focuses on revenue analysis, while the second one centers around profit analysis.
 
-# Tableau Dashboards
-# Revenue Analysis Dashboard
+## Tableau Dashboards
+### Revenue Analysis Dashboard
 
 Provides insights into revenue trends over the specified time frame.
 Includes visualizations for product-wise revenue distribution.
 Highlights key factors influencing revenue, such as top-selling products and revenue by region.
 Offers interactive features for users to drill down into specific details.
 
-# Profit Analysis Dashboard
+### Profit Analysis Dashboard
 
 Offers a comprehensive view of profit margins and trends.
 Visualizes profit contributions from different product categories.
 Identifies factors affecting profit, including profit by customer segments and profit margin by region.
 Enables users to dynamically explore profit-related insights.
 
-# Data Exploration
+## Data Exploration
 The data was initially explored in SQL Server to understand its structure and identify relevant KPIs.
 SQL queries used for data exploration are provided here.
 
@@ -57,11 +57,11 @@ SELECT SUM(transactions.sales_amount) FROM transactions INNER JOIN date ON trans
 
 SELECT SUM(transactions.sales_amount) FROM transactions INNER JOIN date ON transactions.order_date=date.date where date.year=2020 and transactions.market_code="Mark001";
 
-# Sales_Analysis.twb for profit and revenue related visualizations. or use Tableau link 
+## Sales_Analysis.twb for profit and revenue related visualizations. or use Tableau link 
 https://public.tableau.com/views/SalesInsight_17053636600480/ProfitAnalysis?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
 Explore the dashboards interactively and gain valuable insights.
 
-# Requirements
+## Requirements
 
 Tableau Desktop or Tableau Public for visualization exploration.
 SQL Server for data exploration and extraction.
